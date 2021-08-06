@@ -1,0 +1,21 @@
+# misc
+composer.lock
+.DS_Store
+/.php_cs.cache
+
+# ignore generated documentation
+*GENERATED*
+
+# ignore typical clutter of IDEs and editors (this could be added in .git/info/exclude,
+#  but we add it here for convenience)
+*~
+*.bak
+*.idea
+*.project
+*.swp
+.project
+.webprj
+nbproject
+
+# ignore generated dirs and files needed for testing
+.Build/
